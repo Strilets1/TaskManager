@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/enter_title_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter name of task"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/set_date_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set data"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/date_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="21.01.2020"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/enter_description_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter description to the task"/>
+
+</LinearLayout>
